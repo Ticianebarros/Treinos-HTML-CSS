@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } 
+  
+   html, body {
+    height: 100%;
+    width: 100%;
+    background-color:  floralwhite;
+  }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-family: 'Belleza', cursive;
+        color: rgb(139, 11, 130);
+        font-size: 3rem;
+        /* font-size: 50%; */
+        margin-block: 4px;
+        margin-left: 10px;
+    }
+
+    h3 {
+        font-family: 'Belleza', cursive;
+        color: rgb(186, 37, 106);
+        font-size: 1.5rem;
+        /* font-size: 50%; */
+        margin-block: 4px;
+        margin-left: 10px;
+    }
+
+    p {
+        font-family: 'Belleza', cursive;
+        color: rgb(10, 8, 96);
+        font-size: 1rem;
+        /* font-size: 50%; */
+        margin-block: 4px;
+        margin-left: 12px;
+    }
+
+    h4{
+        font-family: 'Belleza', cursive;
+        color: rgb(8, 96, 27);
+        font-size: 1rem;
+        /* font-size: 50%; */
+        margin-block: 5px;
+        margin-left: 10px;
+    }
