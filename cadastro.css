@@ -1,0 +1,63 @@
+main{
+    margin:0
+    pedding:0;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #0d3c3c;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    text-transform:justify;
+    color: #a8a7a7;
+}
+
+div.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    width: 80%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    text-transform: uppercase;
+    color: black;
+
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #d3f3ad;
+    border: 2px solid #d3f3ad;
+    ;
+}
+
+div.cadastro > button {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #a50b55;
+    color: white;
+    width: 25%;
+    height: 8%;
+}
+
+.clique:hover {
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+div.cadastro > input {
+    width: 80%;
+    border: 1px solid rgba(0,0,0,0);
+    border-top: 2px solid #bab9b9;
+}
+
+div.cadastro > input:hover {
+    border: 1px solid #a50b55;
+}
